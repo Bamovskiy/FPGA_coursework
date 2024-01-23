@@ -1,0 +1,173 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 1372
+License: Customer
+
+Current time: 	Tue Jan 23 14:51:45 MSK 2024
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Available disk space: 70 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	-
+User home directory: C:/Users/-
+User working directory: D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/-/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/-/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/-/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/vivado.log
+Vivado journal file location: 	D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/vivado.jou
+Engine tmp dir: 	D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/.Xil/Vivado-1372-DESKTOP-P1SEPSP
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 610 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 78 MB (+79716kb) [00:00:07]
+// [Engine Memory]: 574 MB (+450001kb) [00:00:07]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: D:\Учеба\Автомат. разраб. цифр. устр. ПЛИС\FPGA_coursework\DTH11_UART.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 56 MB. Current time: 1/23/24, 2:51:47 PM MSK
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/FPGA_coursework' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 728 MB (+132097kb) [00:00:17]
+// [GUI Memory]: 87 MB (+5069kb) [00:00:18]
+// [GUI Memory]: 106 MB (+14800kb) [00:00:18]
+// [Engine Memory]: 787 MB (+23553kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3369 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 824.469 ; gain = 210.750 
+// Project name: DTH11_UART; location: D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework; part: xc7a35ticsg324-1L
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (F, cl)
+// PAPropertyPanels.initPanels (DTH11_UART.sv) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DTH11_UART.sv]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DTH11_UART.sv]", 2, false, false, false, false, true, false); // B (F, cl) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ah (an, cl)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cl): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cl)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.srcs/sources_1/new/DTH11_UART.sv}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cl): Remove Sources: addNotify
+// by (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  {{D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.srcs/sources_1/new/DTH11_UART.sv}} 
+// [GUI Memory]: 112 MB (+1467kb) [00:00:32]
+dismissDialog("Remove Sources"); // by (aE)
+// Elapsed time: 18 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "uart"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: close [ open {D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.srcs/sources_1/new/uart.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.srcs/sources_1/new/uart.v}} 
+// I (cl): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 124 MB (+6583kb) [00:01:06]
+// [Engine Memory]: 833 MB (+6657kb) [00:01:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 833 MB. GUI used memory: 61 MB. Current time: 1/23/24, 2:52:42 PM MSK
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart (uart.v)]", 1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart (uart.v)]", 1, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("uart.v", 17, 570); // cl (w, cl)
+typeControlKey((HResource) null, "uart.v", 'v'); // cl (w, cl)
+typeControlKey(null, null, 'z');
+selectCodeEditor("uart.v", 145, 514); // cl (w, cl)
+typeControlKey((HResource) null, "uart.v", 'v'); // cl (w, cl)
+selectCodeEditor("uart.v", 93, 374); // cl (w, cl)
+selectCodeEditor("uart.v", 103, 351); // cl (w, cl)
+selectCodeEditor("uart.v", 42, 363); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("uart.v", 19, 420); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 76 seconds
+selectCodeEditor("uart.v", 59, 538); // cl (w, cl)
