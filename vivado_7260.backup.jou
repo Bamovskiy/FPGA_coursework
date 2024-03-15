@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Feb 12 10:25:09 2024
+# Process ID: 7260
+# Current directory: D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2588 D:\Учеба\Автомат. разраб. цифр. устр. ПЛИС\FPGA_coursework\DTH11_UART.xpr
+# Log file: D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/vivado.log
+# Journal file: D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Учеба/Автомат. разраб. цифр. устр. ПЛИС/FPGA_coursework/DTH11_UART.xpr}
+update_compile_order -fileset sources_1
