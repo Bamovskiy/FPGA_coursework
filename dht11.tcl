@@ -149,12 +149,12 @@ if {[string equal [get_filesets -quiet sources_1] ""]} {
 set obj [get_filesets sources_1]
 # Import local files from the original project
 set files [list \
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sources_1/new/BCD.v" ]\
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sources_1/new/DHT11.v" ]\
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sources_1/new/UART.v" ]\
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sources_1/new/rom.v" ]\
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sources_1/new/uart_tx.v" ]\
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sources_1/new/Top.v" ]\
+ [file normalize "./rtl/BCD.v" ]\
+ [file normalize "./rtl/DHT11.v" ]\
+ [file normalize "./rtl/UART.v" ]\
+ [file normalize "./rtl/rom.v" ]\
+ [file normalize "./rtl/uart_tx.v" ]\
+ [file normalize "./rtl/Top.v" ]\
 ]
 set imported_files [import_files -fileset sources_1 $files]
 
@@ -177,9 +177,9 @@ if {[string equal [get_filesets -quiet constrs_1] ""]} {
 set obj [get_filesets constrs_1]
 
 # Add/Import constrs file and set constrs file properties
-set file "[file normalize "$origin_dir/Frundin_CW_DHT11.srcs/constrs_1/new/Top.xdc"]"
+set file "[file normalize "./xdc/Top.xdc"]"
 set file_imported [import_files -fileset constrs_1 [list $file]]
-set file "new/Top.xdc"
+set file "Top.xdc"
 set file_obj [get_files -of_objects [get_filesets constrs_1] [list "*$file"]]
 set_property -name "file_type" -value "XDC" -objects $file_obj
 
@@ -195,8 +195,8 @@ if {[string equal [get_filesets -quiet sim_1] ""]} {
 set obj [get_filesets sim_1]
 # Import local files from the original project
 set files [list \
- [file normalize "${origin_dir}/Frundin_CW_DHT11.srcs/sim_1/new/testbench.sv" ]\
- [file normalize "${origin_dir}/testbench_behav.wcfg" ]\
+ [file normalize "./testbench/testbench.sv" ]\
+ [file normalize "./testbench/testbench_behav.wcfg" ]\
 ]
 set imported_files [import_files -fileset sim_1 $files]
 
@@ -204,7 +204,7 @@ set imported_files [import_files -fileset sim_1 $files]
 # None
 
 # Set 'sim_1' fileset file properties for local files
-set file "new/testbench.sv"
+set file "testbench.sv"
 set file_obj [get_files -of_objects [get_filesets sim_1] [list "*$file"]]
 set_property -name "file_type" -value "SystemVerilog" -objects $file_obj
 
